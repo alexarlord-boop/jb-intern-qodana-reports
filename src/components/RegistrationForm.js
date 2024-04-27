@@ -1,3 +1,6 @@
+// legacy attempt to construct a nice form
+// after a few hours I decided to delve into React Hook Form hook - all progress is presented in App.js
+
 import React from "react";
 import { useForm } from "react-hook-form";
 
@@ -5,7 +8,6 @@ const RegistrationForm = () => {
     const {
         register,
         handleSubmit,
-        watch,
         formState: { errors },
     } = useForm();
     const [showPassword, setShowPassword] = React.useState(false);
@@ -13,9 +15,6 @@ const RegistrationForm = () => {
     const onSubmit = (data) => {
         console.log(data);
     };
-
-    // console.log("Changes in email: " + watch("email")); // watch input value by passing the name of it
-    // console.log("Changes in username: " + watch("username")); // watch input value by passing the name of it
 
     const handlePasswordToggle = () => {
         setShowPassword((prevState) => !prevState);

@@ -1,13 +1,5 @@
-.App {
-  color: #000000; /* Text color for contrast */
-}
-
 body {
-  background: transparent; /* Make it white if you need */
-  padding: 0;
-  margin: 0;
-
-  justify-content: center;
-  align-items: center;
   font-family: "JetBrains Mono", monospace;
+  background: linear-gradient(to bottom right, #f0f6fd, #e8f3fc);
+  color: #333;
 }
