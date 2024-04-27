@@ -3,7 +3,7 @@ import {FaEye, FaEyeSlash} from "react-icons/fa";
 import {ErrorsComponent} from "./ErrorsComponent";
 
 
-export function PasswordInput({register, name, required, errors, label, id, placeholder, ...rest}) {
+export function PasswordInputComponent({register, name, required, errors, label, id, placeholder, ...rest}) {
     const [showPassword, setShowPassword] = React.useState(false);
     const handlePasswordToggle = () => {
         setShowPassword((prevState) => !prevState);
@@ -24,12 +24,12 @@ export function PasswordInput({register, name, required, errors, label, id, plac
                     {showPassword ? (
                         <>
                             <span aria-hidden="true"><FaEyeSlash/></span>
-                            <label className="text-semibold text-lg">&nbsp;Hide Password</label>
+                            <label className="text-semibold ">&nbsp;Hide Password</label>
                         </>
                     ) : (
                         <>
                             <span aria-hidden="true"><FaEye/></span>
-                            <label className="text-semibold text-lg">&nbsp;Show Password</label>
+                            <label className="text-semibold ">&nbsp;Show Password</label>
                         </>
                     )}
                 </button>
