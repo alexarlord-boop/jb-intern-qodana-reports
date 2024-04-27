@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+![jbcanvas-half.svg](images/jbcanvas-half.svg)
+# Accessibility Enhancements for Qodana Reports
+# JetBrains Internship Project 2024
+
+<details><summary>How to run this project repo locally</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -13,58 +16,38 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+</details>
 
-### `npm test`
+Preview in CodeSandBox: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Task Description
+Design and develop an accessible registration form with fields for email, password, and username, plus a "Show Password" toggle button, ensuring keyboard navigability and screen reader compatibility.
 
-### `npm run build`
+## Solution outcome
+Working on this task has provided me with a unique opportunity to improve my skills in React, specifically with the React Hook Form library. Through hands-on experience, I've deepened practical knowledge in frontend development and UX. 
+As I delved into the WCAG 2.1 guidelines, I've not only learned about the importance of inclusive design but also applied these principles directly to my project. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Results: Registration Form with keyboard navigability and screen reader compatibility
+screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project compatibility with  [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+This section showcase my interest in Web Content Accessibility Guidelines.
+I scanned all sections of WCAG 2.1 and checked "How to Meet ..." suggestions for relevant features within this task.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Perceivable
+add points here
 
-### `npm run eject`
+### Operable
+[Keyboard accessible](https://www.w3.org/TR/WCAG21/#keyboard-accessible)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Focus Order](https://www.w3.org/TR/WCAG21/#focus-order)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Headings and Lables](https://www.w3.org/TR/WCAG21/#headings-and-labels)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Focus Visible](https://www.w3.org/TR/WCAG21/#focus-visible)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Understandable
+add points here
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Robust
+add points here
