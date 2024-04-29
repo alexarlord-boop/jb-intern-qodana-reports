@@ -18,7 +18,7 @@ export function PasswordInputComponent({register, name, required, errors, label,
                     tabIndex="4"
                     type="button"
                     onClick={handlePasswordToggle}
-                    className="ml-2  text-gray-800 font-light  px-8 text-xl rounded inline-flex items-center focus:outline-none focus:ring focus:ring-orange-500"
+                    className="ml-2  text-gray-800 font-light  px-8 text-xl rounded inline-flex items-center focus:outline-none focus:ring focus:ring-orange-500 ring-offset-4"
                     aria-label={showPassword ? "Hide password" : "Show password"}
                 >
                     {showPassword ? (

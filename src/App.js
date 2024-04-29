@@ -27,7 +27,7 @@ function App() {
     }
 
     // CSS classes for focus ring styling
-    const focusClassName = "focus:ring focus:ring-orange-400";
+    const focusClassName = "focus:ring focus:ring-orange-400 ring-offset-4";
     const inputClassName = "w-full p-5 font-medium border rounded-md border-slate-300 placeholder:opacity-60 focus:outline-none " + focusClassName;
 
 
